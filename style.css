@@ -3,6 +3,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -34,7 +35,7 @@ ul {
 
 
 .signup-subheader {
-    background-color: #1F2931;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,11 +43,24 @@ ul {
     color: white;
 }
 
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    color: #E5E7EB;
+    margin-right: 150px;
+}
 
 
+.random-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-
+.info {
+    margin: 20px;
+}
 
 
 .footer {
@@ -63,6 +77,11 @@ ul {
 
 button {
     background-color: #3882F6;
+    border-color: transparent;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    width: 100px;
 }
 
 
