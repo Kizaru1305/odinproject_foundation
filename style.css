@@ -37,6 +37,9 @@ ul {
     margin: 20px;
 }
 
+.text {
+    width: 200px;
+}
 
 .signup-subheader {
     background-color: #1F2937;
@@ -124,16 +127,32 @@ button {
 .signup-container {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin: 70px;
 }
 
 .signup {
     background-color: #3882F6;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     height: 150px;
     width: 900px;
     border-radius: 15px;
+}
+
+.signup-button {
+    border-color: white;
+    color: white;
+
+}
+
+.signup h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.signup a {
+    color: #E5E7EB;
 }
